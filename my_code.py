@@ -15,7 +15,7 @@ if practice == "Bb4":
 else:
     print("The correct input was: Bb4")
 
-play_again = 1
+play_again = 1 #allows user to play again
 while play_again == 1:
 
     user_list = []
@@ -33,9 +33,9 @@ while play_again == 1:
     else:
         print("You didn't quite get the answer, but don't worry you can try again and ask for a hint")
 
-    hint = input("Would you like a hint? If yes type y, if no type n: ")
+    hint = input("Would you like a hint? If yes type y, if no type n: ") #hints give them one move of one of the solutions
     if hint == "y":
-        hint_number = input("Okay, you want a hint. If you want the first move of one of the solutions type 1, second 2, third 3, fourth 4: ")
+        hint_number = input("Okay, you want a hint. If you want the first move of one of the solutions type 1, second 2, third 3, fourth 4: ") #choose what move they want to know
         if hint_number == "1":
             print("The first move is: Pd4")
         elif hint_number == "2":
