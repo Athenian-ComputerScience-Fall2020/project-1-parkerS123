@@ -7,17 +7,17 @@ Start by mapping your idea out in pseudocode, then writing the program. You will
 
 ### Criteria
 Your program should include a minimum of: 
-* 1 list (3 or more elements)
-* manipulation of the list in some way
-* 1 while loop
-* 1 conditional (if-elif-else)
-* 1 for loop
-* 1 function that does something other than just print
-* function should be called at least 2x
-* 2 types of variables
-* Try/except
-* Comments - use them!
-* Collaborators (as usual)
+* 1 list (3 or more elements)                                     #DONE (The answer lists and the user_list)
+* manipulation of the list in some way                            #DONE (appending input into list)
+* 1 while loop                                                    #DONE (while play_again == 1:)
+* 1 conditional (if-elif-else)                                    #DONE (Many conditionals)
+* 1 for loop                                                      #DONE(for x in range (4):)
+* 1 function that does something other than just print            #DONE (Both functions have conditionals and other features)
+* function should be called at least 2x                           #DONE (Both functions can be called as many times as the user plays)
+* 2 types of variables                                            #DONE (play_again & number_of_moves & many others)
+* Try/except                                                      #DONE (makes them enter an integer)
+* Comments - use them!                                            #DONE
+* Collaborators (as usual)                                        #DONE
 
 ### Functionality
 Your program should:
