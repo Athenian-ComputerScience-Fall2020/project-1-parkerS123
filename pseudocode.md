@@ -10,6 +10,7 @@
     * for loop because only a certain amount of turns
     * append their coordinates to a list and at the end ask if their list eqauls any of the answers
         * If they get it right they win and did a great job... Play again
+        * Can choose if they want a hint, and which hint number
         * If they lose they can keep trying... Play again and tell them to make sure to enter the coordinates exactly right
 
 
