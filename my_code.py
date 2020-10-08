@@ -44,8 +44,9 @@ print("There are 2 ways to beat the copycat in chess in 4 moves. Try to find the
 print("Remember that whatever move you play, your oppenent will play the same move from their perspective (copycat)") 
 print("To enter moves, Use the first letter of the piece first (capital letter), then the sqaure that piece is moving to.") 
 
+#asks the player if they know how to play chess, if not tells them a little bit about the game
+played_before = input("Have you ever played chess before? Type yes or no: ") 
 while played_before == "yes" or "no":
-    played_before = input("Have you ever played chess before? Type yes or no: ")
     if played_before == "yes":
         print("Great!")
         break
@@ -54,12 +55,8 @@ while played_before == "yes" or "no":
         print("The goal of the game is to caputure the other person's king, and you can do this by moving you pieces in a way that you win")
         break
     else:
-        print("Please enter yes or no next time ")
-      
-
-    
-
-
+        played_before = input("Please answer yes or no: have you ever played chess before? ")
+        
 
 practice = str(input("Try entering bishop to b4: ")) #gives them an oppurtunity to practice, to make sure they enter it correctly
 if practice == "Bb4":
