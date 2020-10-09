@@ -1,10 +1,9 @@
 # Collaborators (including web sites where you got help: (enter none if you didn't need help)
-# Megan helped trouble shoot
+# Megan helped me trouble shoot
 
 answer1 = ["Pd4", "Qd3", "Qh3", "Qc8"] #these are the answers to the game, if they enter either of these they win
-#print(answer1)
 answer2 = ["Pc4", "Qa4", "Qc6", "Qc8"]
-#print(answer2)
+
 
 def hint_function(): #function that can be called as many times as the user wants, if they play again
     hint = input("Would you like a hint? If yes type y, if no type n: ") #hints give them one move of one of the solutions
@@ -55,7 +54,7 @@ while played_before == "yes" or "no":
         print("The goal of the game is to caputure the other person's king, and you can do this by moving you pieces in a way that you win")
         break
     else:
-        played_before = input("Please answer yes or no: have you ever played chess before? ")
+        played_before = input("Please answer yes or no: have you ever played chess before? ") #makes user correct bad input 
         
 
 practice = str(input("Try entering bishop to b4: ")) #gives them an oppurtunity to practice, to make sure they enter it correctly
