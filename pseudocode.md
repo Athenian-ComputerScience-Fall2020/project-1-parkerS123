@@ -1,5 +1,4 @@
 # Pseudocode for this program
-(this can be in a flowchart, using bullet points, inserting a picture, etc)
 
 1) I need to input the answers for the code
     * Research the fastest ways to win the copycat strategy then choose a few combinations
